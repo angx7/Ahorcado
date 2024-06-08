@@ -12,11 +12,39 @@ namespace Ahorcado
 {
     public partial class Juego : Form
     {
-        public Juego(String palabra)
+        public Juego(string j1, string j2, int palabra)
         {
             InitializeComponent();
+            int maxscore = 0;
+            int score1 = 0;
+            int score2 = 0;
             //lblPalabra.Text = iniciarLetrasEncontradas(palabra.Length);
-            jugador1("j1", "j2", 0, 0, 1);
+            do
+            {
+                score1 = jugador1(j1, j2, 0, 0, palabra);
+                if (score1 == 3)
+                {
+                    MessageBox.Show(j1 + " ha ganado");
+                    break;
+                }
+
+                score2 = jugador1(j2, j1, 0, 0, palabra);
+
+                if (score2 == 3)
+                {
+                    MessageBox.Show(j2 + " ha ganado");
+                    break;
+                }
+
+                if (score2 < score1)
+                {
+                    maxscore = score1;
+                }
+                else
+                {
+                    maxscore = score2;
+                }
+            } while (maxscore < 3);
         }
 
 
@@ -33,15 +61,11 @@ namespace Ahorcado
             Random random = new Random();
 
             // Diccionario del juego
-            string[] animales = { "perro", "gato", "caballo", "vaca", "oveja", "pollo", "pez", "mariposa", "abeja",
-                "mono" };
-            string[] frutas = { "manzana", "pera", "platano", "naranja", "uva", "sandia", "melon", "fresa", "mandarina",
-                "aguacate" };
+            string[] animales = { "perro", "gato", "caballo", "vaca", "oveja", "pollo", "pez", "mariposa", "abeja", "mono" };
+            string[] frutas = { "manzana", "pera", "platano", "naranja", "uva", "sandia", "melon", "fresa", "mandarina", "aguacate" };
             string[] nombres = { "juan", "maria", "jose", "ana", "luis", "isabel", "pedro", "paula", "miguel", "daniela" };
-            string[] sitiosWeb = { "google", "youtube", "facebook", "twitter", "amazon", "netflix", "instagram", "whatsapp",
-                "mercadolibre" };
-            string[] ciudadesMexico = { "cdmx", "guadalajara", "monterrey", "puebla", "leon", "tijuana", "juarez", "merida",
-                "aguascalientes", "queretaro" };
+            string[] sitiosWeb = { "google", "youtube", "facebook", "twitter", "amazon", "netflix", "instagram", "whatsapp", "mercadolibre" };
+            string[] ciudadesMexico = { "cdmx", "guadalajara", "monterrey", "puebla", "leon", "tijuana", "juarez", "merida", "aguascalientes", "queretaro" };
 
             do
             {
@@ -75,23 +99,15 @@ namespace Ahorcado
                         break;
                 }
 
-
+                lblJugadorTurno.Text = j1 + " Jugador 2 " + j2;
 
                 letrasEncontradas = iniciarLetrasEncontradas(PalabraAdivinar.Length);
 
+                lblPalabra.Text = letrasEncontradas;
+                lblTema.Text = PalabraAdivinar;
             } while (adivinado == true && puntuacion < 3);
 
             return puntuacion;
-        }
-
-        private static string iniciarLetrasEncontradas(int longitud)
-        {
-            string letras = "";
-            for (int i = 0; i < longitud; i++)
-            {
-                letras = letras + 0;
-            }
-            return letras;
         }
 
         private static int actualizarFallos(string PalabraAdivinar, char letra)
@@ -137,6 +153,11 @@ namespace Ahorcado
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

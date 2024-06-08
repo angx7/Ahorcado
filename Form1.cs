@@ -6,25 +6,74 @@ namespace Ahorcado
         {
             InitializeComponent();
         }
-
-        private void btnInicio_Click(object sender, EventArgs e)
+        private void btnCiudades_Click(object sender, EventArgs e)
         {
+            if (txtJ1.Text == "" || txtJ2.Text == "")
+            {
+                MessageBox.Show("Por favor, ingrese los nombres de los jugadores");
+                return;
+            }
 
-            string[] animales = { "perro", "gato", "caballo", "vaca", "oveja", "pollo", "pez", "mariposa", "abeja", "mono" };
-            string[] frutas = { "manzana", "pera", "platano", "naranja", "uva", "sandia", "melon", "fresa", "mandarina", "aguacate" };
-            string[] nombres = { "juan", "maria", "jose", "ana", "luis", "isabel", "pedro", "paula", "miguel", "daniela" };
-            string[] sitiosWeb = { "google", "youtube", "facebook", "twitter", "amazon", "netflix", "instagram", "whatsapp", "mercadolibre" };
-            string[] ciudadesMexico = { "cdmx", "guadalajara", "monterrey", "puebla", "leon", "tijuana", "juarez", "merida", "aguascalientes", "queretaro" };
-
-            Random generadorAleatorio = new Random();
-            int indiceAleatorio = generadorAleatorio.Next(animales.Length);
-            string palabraAleatoria = animales[indiceAleatorio];
-
-            lblnicio.Text = palabraAleatoria;
 
             this.Hide();
-            Juego form2 = new Juego(palabraAleatoria);
+            Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 1);
             form2.Show();
         }
+
+        private void btnAnimales_Click(object sender, EventArgs e)
+        {
+            if (txtJ1.Text == "" || txtJ2.Text == "")
+            {
+                MessageBox.Show("Por favor, ingrese los nombres de los jugadores");
+                return;
+            }
+
+            this.Hide();
+            Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 2);
+            form2.Show();
+        }
+
+        private void btnFrutas_Click(object sender, EventArgs e)
+        {
+            if (txtJ1.Text == "" || txtJ2.Text == "")
+            {
+                MessageBox.Show("Por favor, ingrese los nombres de los jugadores");
+                return;
+            }
+
+
+            this.Hide();
+            Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 3);
+            form2.Show();
+        }
+
+        private void btnNombres_Click(object sender, EventArgs e)
+        {
+            if (txtJ1.Text == "" || txtJ2.Text == "")
+            {
+                MessageBox.Show("Por favor, ingrese los nombres de los jugadores");
+                return;
+            }
+
+
+            this.Hide();
+            Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 4);
+            form2.Show();
+        }
+
+        private void btnSitiosWeb_Click(object sender, EventArgs e)
+        {
+            if (txtJ1.Text == "" || txtJ2.Text == "")
+            {
+                MessageBox.Show("Por favor, ingrese los nombres de los jugadores");
+                return;
+            }
+
+
+            this.Hide();
+            Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 5);
+            form2.Show();
+        }
+
     }
 }

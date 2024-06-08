@@ -31,6 +31,8 @@
             lblPalabra = new Label();
             button1 = new Button();
             lblTema = new Label();
+            lblJugadorTurno = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // lblPalabra
@@ -44,11 +46,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(469, 265);
+            button1.Location = new Point(679, 398);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "Cerrar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -61,11 +63,32 @@
             lblTema.TabIndex = 2;
             lblTema.Text = "label1";
             // 
+            // lblJugadorTurno
+            // 
+            lblJugadorTurno.AutoSize = true;
+            lblJugadorTurno.Location = new Point(412, 87);
+            lblJugadorTurno.Name = "lblJugadorTurno";
+            lblJugadorTurno.Size = new Size(50, 20);
+            lblJugadorTurno.TabIndex = 3;
+            lblJugadorTurno.Text = "label1";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(566, 190);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 4;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Juego
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
+            Controls.Add(lblJugadorTurno);
             Controls.Add(lblTema);
             Controls.Add(button1);
             Controls.Add(lblPalabra);
@@ -80,5 +103,7 @@
         private Label lblPalabra;
         private Button button1;
         private Label lblTema;
+        private Label lblJugadorTurno;
+        private Button button2;
     }
 }
