@@ -1,0 +1,17 @@
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\bin\Debug\net8.0-windows\Ahorcado.exe
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\bin\Debug\net8.0-windows\Ahorcado.deps.json
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\bin\Debug\net8.0-windows\Ahorcado.runtimeconfig.json
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\bin\Debug\net8.0-windows\Ahorcado.dll
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\bin\Debug\net8.0-windows\Ahorcado.pdb
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.Form1.resources
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.csproj.GenerateResource.cache
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.GeneratedMSBuildEditorConfig.editorconfig
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.AssemblyInfoInputs.cache
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.AssemblyInfo.cs
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.csproj.CoreCompileInputs.cache
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.dll
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\refint\Ahorcado.dll
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.pdb
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.genruntimeconfig.cache
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\ref\Ahorcado.dll
+E:\POE\tercer_parcial\ProyectoFinal\Ahorcado\obj\Debug\net8.0-windows\Ahorcado.Juego.resources
