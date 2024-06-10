@@ -43,9 +43,10 @@
             // 
             // btnAnimales
             // 
-            btnAnimales.Location = new Point(107, 314);
+            btnAnimales.Font = new Font("Verdana", 10.2F);
+            btnAnimales.Location = new Point(79, 247);
             btnAnimales.Name = "btnAnimales";
-            btnAnimales.Size = new Size(94, 29);
+            btnAnimales.Size = new Size(125, 29);
             btnAnimales.TabIndex = 0;
             btnAnimales.Text = "Animales";
             btnAnimales.UseVisualStyleBackColor = true;
@@ -54,51 +55,57 @@
             // lblnicio
             // 
             lblnicio.AutoSize = true;
-            lblnicio.Location = new Point(322, 27);
+            lblnicio.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
+            lblnicio.Location = new Point(160, 33);
             lblnicio.Name = "lblnicio";
-            lblnicio.Size = new Size(83, 20);
+            lblnicio.Size = new Size(115, 20);
             lblnicio.TabIndex = 1;
             lblnicio.Text = "Bienvenido";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(94, 230);
+            label1.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
+            label1.Location = new Point(118, 196);
             label1.Name = "label1";
-            label1.Size = new Size(138, 20);
+            label1.Size = new Size(194, 20);
             label1.TabIndex = 2;
             label1.Text = "Selecciona un tema";
             // 
             // lblName
             // 
             lblName.AutoSize = true;
-            lblName.Location = new Point(94, 84);
+            lblName.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
+            lblName.Location = new Point(43, 78);
             lblName.Name = "lblName";
-            lblName.Size = new Size(250, 20);
+            lblName.Size = new Size(361, 20);
             lblName.TabIndex = 3;
             lblName.Text = "Ingrese el nombre de los jugadores: ";
             // 
             // txtJ1
             // 
-            txtJ1.Location = new Point(107, 146);
+            txtJ1.Font = new Font("Verdana", 10.2F);
+            txtJ1.Location = new Point(79, 136);
             txtJ1.Name = "txtJ1";
             txtJ1.PlaceholderText = "Jugador 1";
-            txtJ1.Size = new Size(125, 27);
+            txtJ1.Size = new Size(125, 28);
             txtJ1.TabIndex = 4;
             // 
             // txtJ2
             // 
-            txtJ2.Location = new Point(270, 146);
+            txtJ2.Font = new Font("Verdana", 10.2F);
+            txtJ2.Location = new Point(227, 136);
             txtJ2.Name = "txtJ2";
             txtJ2.PlaceholderText = "Jugador 2";
-            txtJ2.Size = new Size(125, 27);
+            txtJ2.Size = new Size(125, 28);
             txtJ2.TabIndex = 5;
             // 
             // btnFrutas
             // 
-            btnFrutas.Location = new Point(227, 314);
+            btnFrutas.Font = new Font("Verdana", 10.2F);
+            btnFrutas.Location = new Point(224, 247);
             btnFrutas.Name = "btnFrutas";
-            btnFrutas.Size = new Size(94, 29);
+            btnFrutas.Size = new Size(128, 29);
             btnFrutas.TabIndex = 6;
             btnFrutas.Text = "Frutas";
             btnFrutas.UseVisualStyleBackColor = true;
@@ -106,9 +113,10 @@
             // 
             // btnNombres
             // 
-            btnNombres.Location = new Point(348, 314);
+            btnNombres.Font = new Font("Verdana", 10.2F);
+            btnNombres.Location = new Point(79, 301);
             btnNombres.Name = "btnNombres";
-            btnNombres.Size = new Size(94, 29);
+            btnNombres.Size = new Size(125, 29);
             btnNombres.TabIndex = 7;
             btnNombres.Text = "Nombres";
             btnNombres.UseVisualStyleBackColor = true;
@@ -116,9 +124,10 @@
             // 
             // btnCiudades
             // 
-            btnCiudades.Location = new Point(593, 314);
+            btnCiudades.Font = new Font("Verdana", 10.2F);
+            btnCiudades.Location = new Point(129, 353);
             btnCiudades.Name = "btnCiudades";
-            btnCiudades.Size = new Size(94, 29);
+            btnCiudades.Size = new Size(183, 51);
             btnCiudades.TabIndex = 8;
             btnCiudades.Text = "Ciudades de México";
             btnCiudades.UseVisualStyleBackColor = true;
@@ -126,9 +135,10 @@
             // 
             // btnSitiosWeb
             // 
-            btnSitiosWeb.Location = new Point(467, 314);
+            btnSitiosWeb.Font = new Font("Verdana", 10.2F);
+            btnSitiosWeb.Location = new Point(224, 301);
             btnSitiosWeb.Name = "btnSitiosWeb";
-            btnSitiosWeb.Size = new Size(94, 29);
+            btnSitiosWeb.Size = new Size(128, 29);
             btnSitiosWeb.TabIndex = 8;
             btnSitiosWeb.Text = "Sitios Web";
             btnSitiosWeb.UseVisualStyleBackColor = true;
@@ -138,7 +148,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(431, 436);
             Controls.Add(btnSitiosWeb);
             Controls.Add(btnCiudades);
             Controls.Add(btnNombres);
@@ -151,6 +161,7 @@
             Controls.Add(btnAnimales);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Ahorcado";
             ResumeLayout(false);
             PerformLayout();

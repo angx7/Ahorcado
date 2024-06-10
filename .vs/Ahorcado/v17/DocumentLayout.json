@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|solutionrelative:juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|e:\\poe\\tercer_parcial\\proyectofinal\\ahorcado\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|solutionrelative:juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|e:\\poe\\tercer_parcial\\proyectofinal\\ahorcado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C117A5B1-133C-4FB3-B0FB-A5F03F51569C}|Ahorcado.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowBMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:55:28.799Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -35,15 +48,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
+              "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwE8AAAAAAAAA",
+              "ToolTip": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T08:55:28.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:58:31.282Z"
             },
             {
               "$type": "Document",
@@ -65,22 +76,10 @@
               "RelativeDocumentMoniker": "Juego.cs",
               "ToolTip": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Juego.cs",
               "RelativeToolTip": "Juego.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAQwDsAAABDAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwLkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T00:15:18.226Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\POE\\tercer_parcial\\ProyectoFinal\\Ahorcado\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:23:17.825Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

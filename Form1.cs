@@ -14,10 +14,10 @@ namespace Ahorcado
                 return;
             }
 
-
-            this.Hide();
             Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 1);
             form2.Show();
+            txtJ1.Text = "";
+            txtJ2.Text = "";
         }
 
         private void btnAnimales_Click(object sender, EventArgs e)
@@ -28,9 +28,10 @@ namespace Ahorcado
                 return;
             }
 
-            this.Hide();
             Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 2);
             form2.Show();
+            txtJ1.Text = "";
+            txtJ2.Text = "";
         }
 
         private void btnFrutas_Click(object sender, EventArgs e)
@@ -41,10 +42,10 @@ namespace Ahorcado
                 return;
             }
 
-
-            this.Hide();
             Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 3);
             form2.Show();
+            txtJ1.Text = "";
+            txtJ2.Text = "";
         }
 
         private void btnNombres_Click(object sender, EventArgs e)
@@ -55,10 +56,10 @@ namespace Ahorcado
                 return;
             }
 
-
-            this.Hide();
             Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 4);
             form2.Show();
+            txtJ1.Text = "";
+            txtJ2.Text = "";
         }
 
         private void btnSitiosWeb_Click(object sender, EventArgs e)
@@ -69,10 +70,10 @@ namespace Ahorcado
                 return;
             }
 
-
-            this.Hide();
             Juego form2 = new Juego(txtJ1.Text, txtJ2.Text, 5);
             form2.Show();
+            txtJ1.Text = "";
+            txtJ2.Text = "";
         }
 
     }
